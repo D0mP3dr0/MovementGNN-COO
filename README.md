@@ -2,7 +2,7 @@
 
 **Reproducibility package** for:
 
-> Seelig, L. F. C.; Migon, E. X. F. G. *MovementGNN: A Physics-Informed Graph Attention Network for Military Terrain Traversability Classification.* Defence Technology, 2026.
+> Seelig, L. F. C.; Salles, R. M. *MovementGNN: A Physics-Informed Graph Attention Network for Military Terrain Traversability Classification.* Manuscript submitted to Defence Technology, 2026.
 
 ---
 
@@ -178,11 +178,12 @@ pip install -r requirements.txt
 ## Citation
 
 ```bibtex
-@article{seelig2026movementgnn,
+@misc{seelig2026movementgnn,
   title={MovementGNN: A Physics-Informed Graph Attention Network for Military Terrain Traversability Classification},
-  author={Seelig, Luis Felipe Comodo and Migon, Eduardo Xavier Ferreira Glaser},
-  journal={Defence Technology},
-  year={2026}
+  author={Seelig, Luis Felipe Comodo and Salles, Ronaldo Moreira},
+  year={2026},
+  note={Manuscript submitted to Defence Technology},
+  howpublished={\url{https://github.com/D0mP3dr0/MovementGNN-COO}}
 }
 ```
 
