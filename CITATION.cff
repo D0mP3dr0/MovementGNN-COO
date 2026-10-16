@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  If you use the code in this repository, please cite it with the metadata
+  below.
+type: software
+title: MovementGNN-COO
+abstract: >-
+  Code of MovementGNN: a physics-informed graph attention network for military
+  terrain traversability classification. It holds the data download, the
+  doctrinal label rules, the terrain graph construction and spatial split, the
+  GATv2 model with its COO-informed physics loss, training, the random forest,
+  MLP and rule-based baselines, full-graph inference, the post-training
+  analyses and the figure scripts. No data are included.
+authors:
+  - given-names: Luis Felipe Comodo
+    family-names: Seelig
+    email: seelig.felipe@eb.mil.br
+    orcid: "https://orcid.org/0009-0000-6095-3864"
+    affiliation: >-
+      Postgraduate Program in Defense Engineering (PGED), Military Institute
+      of Engineering (IME), Rio de Janeiro, Brazil; Military Science
+      Laboratory (LCM), Brazilian Army Command and General Staff College
+      (ECEME), Rio de Janeiro, Brazil
+  - given-names: Ronaldo Moreira
+    family-names: Salles
+    email: rmo@estg.ipp.pt
+    orcid: "https://orcid.org/0000-0002-3916-5086"
+    affiliation: >-
+      Postgraduate Program in Defense Engineering (PGED), Military Institute
+      of Engineering (IME), Rio de Janeiro, Brazil; CIICESI, ESTG,
+      Polytechnic of Porto, Felgueiras, Portugal
+version: 1.0.0
+repository-code: "https://github.com/D0mP3dr0/MovementGNN-COO"
+license: MIT
+keywords:
+  - graph neural networks
+  - graph attention networks
+  - terrain traversability
+  - combined obstacle overlay
+  - physics-informed learning
+  - remote sensing
